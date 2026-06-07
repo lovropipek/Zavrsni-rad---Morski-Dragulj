@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | Morski Dragulj</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <nav class="nav container">
+    <a class="logo" href="index.html">
+      <img src="./images/Logo.png" alt="Morski Dragulj logo">
+      Morski Dragulj
+    </a>
+
+    <button class="hamburger" aria-label="Otvori izbornik">☰</button>
+
+    <ul class="nav-list">
+      <li><a class="nav-link" href="index.html">Početna</a></li>
+      <li><a class="nav-link" href="menu.html">Jelovnik</a></li>
+      <li><a class="nav-link" href="about.html">O nama</a></li>
+      <li><a class="nav-link" href="booking.html">Rezervacija</a></li>
+      <li><a class="nav-link active" href="contact.html">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Kontakt</h1>
+      <p>Pošaljite nam upit ili nas posjetite u restoranu.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-info">
+
+      <article class="card info-box">
+        <img src="./images/icons/address-icon.svg" alt="">
+        <h3>Adresa</h3>
+        <p class="text-muted">Obala 12, Split</p>
+      </article>
+
+      <article class="card info-box">
+        <img src="./images/icons/phone-icon.svg" alt="">
+        <h3>Telefon</h3>
+        <p class="text-muted">+385 91 123 4567</p>
+      </article>
+
+      <article class="card info-box">
+        <img src="./images/icons/wall-clock-icon.svg" alt="">
+        <h3>Radno vrijeme</h3>
+        <p class="text-muted">Pon - Sub: 10:00 - 23:00</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container contact-layout">
+
+      <form class="card form contact-form">
+        <input type="text" placeholder="Ime i prezime" required>
+        <input type="email" placeholder="E-mail adresa" required>
+        <textarea placeholder="Vaša poruka" required></textarea>
+        <button class="btn" type="submit">Pošalji poruku</button>
+      </form>
+
+      <div class="card map-box">
+        <iframe class="map-placeholder"
+                src="https://www.google.com/maps?q=Riva%20Split%20Croatia&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Lokacija restorana Morski Dragulj">
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+
+    <div>
+      <h3>Morski Dragulj</h3>
+      <p>Riblji restoran s jelima inspiriranim Jadranom.</p>
+    </div>
+
+    <div>
+      <h4>Stranice</h4>
+      <p><a href="menu.html">Jelovnik</a></p>
+      <p><a href="booking.html">Rezervacija</a></p>
+    </div>
+
+    <div>
+      <h4>Radno vrijeme</h4>
+      <p>Pon - Sub: 10:00 - 23:00</p>
+      <p>Ned: 12:00 - 22:00</p>
+    </div>
+
+  </div>
+
+  <p class="footer-bottom">© 2026 Morski Dragulj.</p>
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>

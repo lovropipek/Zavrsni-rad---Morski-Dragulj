@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rezervacija | Morski Dragulj</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <nav class="nav container">
+    <a class="logo" href="index.html">
+      <img src="./images/Logo.png" alt="Morski Dragulj logo">
+      Morski Dragulj
+    </a>
+
+    <button class="hamburger" aria-label="Otvori izbornik">☰</button>
+
+    <ul class="nav-list">
+      <li><a class="nav-link" href="index.html">Početna</a></li>
+      <li><a class="nav-link" href="menu.html">Jelovnik</a></li>
+      <li><a class="nav-link" href="about.html">O nama</a></li>
+      <li><a class="nav-link active" href="booking.html">Rezervacija</a></li>
+      <li><a class="nav-link" href="contact.html">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Rezervacija</h1>
+      <p>Rezervirajte svoj stol i provedite ugodan ručak ili večeru uz okuse Jadrana.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container booking-wrap">
+
+      <aside class="card booking-note">
+        <h2>Informacije</h2>
+        <p class="text-muted">
+          Za rezervacije većih grupa, proslave ili posebne zahtjeve slobodno nam ostavite napomenu u obrascu.
+        </p>
+
+        <ul>
+          <li>Adresa: Obala 12, Split</li>
+          <li>Telefon: +385 91 123 4567</li>
+          <li>Vrijeme: 10:00 - 23:00</li>
+        </ul>
+      </aside>
+
+      <form class="card form booking-form">
+        <input type="text" name="ime" placeholder="Ime i prezime" required>
+        <input type="email" name="email" placeholder="E-mail adresa" required>
+        <input type="tel" name="telefon" placeholder="Telefon" required>
+
+        <select name="osobe" required>
+          <option value="">Broj osoba</option>
+          <option>2 osobe</option>
+          <option>3 osobe</option>
+          <option>4 osobe</option>
+          <option>5+ osoba</option>
+        </select>
+
+        <input type="date" name="datum" required>
+        <input type="time" name="vrijeme" required>
+        <textarea name="napomena" placeholder="Napomena"></textarea>
+
+        <button class="btn" type="submit">Pošalji rezervaciju</button>
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+
+    <div>
+      <h3>Morski Dragulj</h3>
+      <p>Riblji restoran s jelima inspiriranim Jadranom.</p>
+    </div>
+
+    <div>
+      <h4>Stranice</h4>
+      <p><a href="menu.html">Jelovnik</a></p>
+      <p><a href="contact.html">Kontakt</a></p>
+    </div>
+
+    <div>
+      <h4>Radno vrijeme</h4>
+      <p>Pon - Sub: 10:00 - 23:00</p>
+      <p>Ned: 12:00 - 22:00</p>
+    </div>
+
+  </div>
+
+  <p class="footer-bottom">© 2026 Morski Dragulj.</p>
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
